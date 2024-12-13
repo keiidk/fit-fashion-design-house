@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Fashion Design House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .banner {
+            background-image: url('https://images.pexels.com/photos/3783552/pexels-photo-3783552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .banner h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .categories, .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .category, .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .category img, .product img {
+            max-width: 100%;
+        }
+        .category h3, .product h3 {
+            margin: 10px 0;
+        }
+        .category p, .product p {
+            padding: 0 10px 10px;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/150" alt="Fit Fashion Design House Logo">
+    <h1>Fit Fashion Design House</h1>
+</header>
+
+<nav>
+    <a href="#promo">Promotions</a>
+    <a href="#categories">Categories</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="banner">
+    <h1>Welcome to Fit Fashion Design House</h1>
+    <p>Your one-stop shop for trendy, stylish, and affordable fashion!</p>
+</div>
+
+<div class="container" id="promo">
+    <h2>Current Promotions</h2>
+    <p>Don't miss out on these amazing deals:</p>
+    <ul>
+        <li>Buy 2 items, get 10% off!</li>
+        <li>Buy 3 or more items, get 20% off!</li>
+    </ul>
+</div>
+
+<div class="container" id="categories">
+    <h2>Shop by Category</h2>
+    <div class="categories">
+        <div class="category">
+            <img src="https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Casual Wear">
+            <h3>Casual Wear</h3>
+            <p>Comfortable and stylish for everyday wear.</p>
+        </div>
+        <div class="category">
+            <img src="https://images.pexels.com/photos/6311394/pexels-photo-6311394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Formal Attire">
+            <h3>Formal Attire</h3>
+            <p>Elegant designs for your special occasions.</p>
+        </div>
+        <div class="category">
+            <img src="https://images.pexels.com/photos/6311411/pexels-photo-6311411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Activewear">
+            <h3>Activewear</h3>
+            <p>Durable and flexible clothing for your workouts.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="products">
+    <h2>Featured Products</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://images.pexels.com/photos/6311417/pexels-photo-6311417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Product 1">
+            <h3>Stylish Top</h3>
+            <p>$25.00</p>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/6311403/pexels-photo-6311403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Product 2">
+            <h3>Elegant Dress</h3>
+            <p>$40.00</p>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/6311404/pexels-photo-6311404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Product 3">
+            <h3>Sporty Leggings</h3>
+            <p>$30.00</p>
+        </div>
+    </div>
+</div>
+
+<footer id="contact">
+    <p>Contact us at: <a href="mailto:info@fitfashion.com">info@fitfashion.com</a></p>
+    <p>Visit us: 123 Fashion Street, Style City</p>
+    <p>&copy; 2024 Fit Fashion Design House. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
